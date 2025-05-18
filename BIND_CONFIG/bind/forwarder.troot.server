@@ -1,0 +1,14 @@
+$TTL    604800
+@       IN      SOA     primario.starfish.com.br. admin.starfish.com.br. (
+                              1         ; Serial
+                         604800         ; Refresh
+                          86400         ; Retry
+                        2419200         ; Expire
+                         604800 )       ; Negative Cache TTL
+;
+@       IN      NS      primario.starfish.com.br.
+primario       IN      A       192.168.0.6
+starfish.com.br. IN MX 10 mail.starfish.com.br.
+www IN A 192.168.0.100
+mail IN A 192.168.0.101
+web IN CNAME www.starfish.com.br.
