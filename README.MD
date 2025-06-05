@@ -5,7 +5,6 @@ Este projeto é um script Python para realizar testes de carga do servidor DNS. 
 ## 📌 Funcionalidades
 
 - Realiza consultas **DNS** usando `dig`.
-- Suporta consultas **recursivas** (`+trace`).
 - Utiliza **multithreading** para testes de carga simultâneos.
 - Mede o tempo de resposta e contabiliza consultas bem-sucedidas e falhadas.
 
