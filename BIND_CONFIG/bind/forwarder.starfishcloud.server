@@ -1,0 +1,21 @@
+
+$TTL    3600
+@       IN      SOA     ns1.starfishcloud.com.br. admin.starfishcloud.com.br. (
+                     2025090901         ; Serial
+                          86400         ; Refresh
+                           7200         ; Retry
+                        2419200         ; Expire
+                           3600 )       ; Negative Cache TTL
+;
+
+@       IN      NS      ns1.starfishcloud.com.br.
+
+@       IN      A       200.133.8.57
+ns1     IN      A       200.133.8.57
+www     IN      A       200.133.8.57
+mail    IN      A       200.133.8.57
+*       IN      A       192.168.100.200
+
+@        IN     MX      10 mail.starfishcloud.com.br.
+
+web     IN      CNAME   www.starfishcloud.com.br.
