@@ -9,7 +9,7 @@ acl internal {
 options {
         directory "/var/cache/bind";
         dnssec-validation auto;
-        listen-on port 53 { localhost; internal; };
+        listen-on port 5553 { localhost; internal; };
         listen-on-v6 { none; };
         allow-query{ internal; };
         forwarders{

@@ -1,9 +1,9 @@
 zone "starfishcloud.com.br"{
         type master;
-        file "/etc/bind/forwarder.troot.server";
+        file "/etc/bind/forwarder.starfishcloud.com.br";
 };
 
 zone "8.133.200.in-addr.arpa" {
         type master;
-        file "/etc/bind/reverse.troot.server";
+        file "/etc/bind/reverse.starfishcloud.com.br";
 };
